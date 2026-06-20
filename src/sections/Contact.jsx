@@ -7,7 +7,7 @@ const contactLinks = [
     icon: <FiMail className="text-xl" />,
     label: 'Email',
     value: 'jamiehernandez20043@gmail.com',
-    href: 'mailto:jamiehernandez20043@gmail.com',
+    href: 'https://mail.google.com/mail/?view=cm&to=jamiehernandez20043@gmail.com',
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
     border: 'border-blue-500/20',
@@ -47,7 +47,7 @@ export default function Contact() {
                   <a
                     key={link.label}
                     href={link.href}
-                    target={link.label === 'LinkedIn' ? '_blank' : undefined}
+                    target="_blank" rel="noreferrer"
                     className={`flex items-center gap-4 p-4 rounded-xl border bg-purple-100/40 dark:bg-blue-950/30 border-purple-200/50 dark:border-blue-900/50 hover:bg-purple-100 dark:hover:bg-blue-950/50 transition-all duration-200 card-hover group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500 dark:focus-visible:ring-blue-500`}
                     aria-label={link.label}
                   >
@@ -82,7 +82,7 @@ export default function Contact() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="p-5 rounded-2xl bg-stone-50/60 dark:bg-blue-950/30 border border-purple-200/50 dark:border-blue-900/50">
                   <p className="text-xs font-mono text-slate-600 dark:text-blue-400/70 mb-2">Email</p>
-                  <a href="mailto:jamiehernandez20043@gmail.com" className="text-slate-900 dark:text-blue-300 hover:text-purple-600 dark:hover:text-blue-200 transition-colors duration-200 font-body">
+                  <a href="https://mail.google.com/mail/?view=cm&to=jamiehernandez20043@gmail.com" target="_blank" rel="noreferrer" className="text-slate-900 dark:text-blue-300 hover:text-purple-600 dark:hover:text-blue-200 transition-colors duration-200 font-body">
                     jamiehernandez20043@gmail.com
                   </a>
                 </div>
@@ -98,7 +98,7 @@ export default function Contact() {
               <div className="mt-6 p-5 rounded-2xl border border-purple-200/50 dark:border-blue-900/50 bg-stone-50/60 dark:bg-blue-950/30">
                 <p className="text-xs font-mono text-gray-600 dark:text-blue-400/70 mb-2">Preferred contact</p>
                 <p className="text-gray-700 dark:text-blue-200 text-sm leading-relaxed">
-                  Email and LinkedIn are the fastest ways to reach me for internship opportunities and collaboration.
+                  Email and phone are the fastest ways to reach me for job opportunities and collaboration.
                 </p>
               </div>
             </div>

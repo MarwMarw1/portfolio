@@ -3,15 +3,13 @@ import SectionHeader from '../components/SectionHeader'
 import Reveal from '../components/Reveal'
 
 const skills = [
-  { name: 'C#', level: 72 },
-  { name: 'HTML & CSS', level: 92 },
-  { name: 'JavaScript', level: 86 },
-  { name: 'PHP', level: 68 },
-  { name: 'Angular.js', level: 64 },
-  { name: 'React.js', level: 82 },
-  { name: 'Tailwind CSS', level: 88 },
-  { name: 'Bootstrap', level: 74 },
-  { name: 'Laravel', level: 66 },
+  { name: 'Next.js', level: 80 },
+  { name: 'HTML & CSS', level: 90 },
+  { name: 'JavaScript', level: 90 },
+  { name: 'PHP', level: 90 },
+  { name: 'React.js', level: 90 },
+  { name: 'Tailwind CSS', level: 90 },
+  { name: 'Bootstrap', level: 90 },
 ]
 
 const focusPoints = [
@@ -79,7 +77,7 @@ export default function About() {
                 </h2>
 
                 <p className="text-slate-700 dark:text-blue-200 leading-relaxed max-w-3xl text-base md:text-lg mb-6">
-                  A graduating Bachelor of Science in Information Technology student from the University of Santo Tomas, specializing in Web and Mobile Application Development. Seeking an internship to apply skills in software development, quality assurance, and testing, while gaining real-world industry experience.
+                  Recent Bachelor of Science in Information Technology graduate from the University of Santo Tomas with proficiency in front-end web development using HTML, CSS, JavaScript, React.js, and Tailwind CSS. Experienced in developing responsive web applications and leveraging AI-powered tools to enhance productivity, streamline development workflows, and support problem-solving. Seeking an entry-level Front-End Developer position where technical skills, adaptability, and a commitment to continuous learning can contribute to organizational success.
                 </p>
 
                 <div className="flex flex-wrap gap-3 mb-6">
@@ -96,8 +94,8 @@ export default function About() {
                 <div className="grid sm:grid-cols-3 gap-3 mb-8">
                   {[
                     { label: 'Focus', value: 'Web + Mobile' },
-                    { label: 'Strength', value: 'QA + Testing' },
-                    { label: 'Goal', value: 'Internship-ready' },
+                    { label: 'Strength', value: 'Front-End Web Development' },
+                    { label: 'Goal', value: 'Jr. Web Developer' },
                   ].map((item, index) => (
                     <motion.div
                       key={item.label}
@@ -130,7 +128,7 @@ export default function About() {
                       <div>
                         <p className="text-slate-700 dark:text-blue-300 mb-2 text-sm">Programming languages & Frameworks</p>
                         <div className="flex flex-wrap gap-2">
-                          {['C#', 'HTML & CSS', 'JavaScript', 'PHP', 'Angular.js', 'React.js', 'Tailwind CSS', 'Bootstrap', 'Laravel'].map((t) => (
+                          {['HTML & CSS', 'JavaScript',  'React.js', 'Tailwind CSS', 'Bootstrap', 'Next.js'].map((t) => (
                             <span key={t} className="px-3 py-1 bg-purple-100/60 dark:bg-blue-950/40 text-sm text-slate-700 dark:text-blue-300 rounded-full hover:bg-purple-100 dark:hover:bg-blue-950/50 transition border border-purple-200/50 dark:border-blue-900/40">
                               {t}
                             </span>
@@ -141,7 +139,7 @@ export default function About() {
                       <div>
                         <p className="text-slate-700 dark:text-blue-300 mb-2 text-sm">Tools</p>
                         <div className="flex flex-wrap gap-2">
-                          {['Visual Studio Code', 'MySQL', 'GitHub'].map((t) => (
+                          {['Visual Studio Code', 'GitHub'].map((t) => (
                             <span key={t} className="px-3 py-1 bg-purple-100/60 dark:bg-blue-950/40 text-sm text-slate-700 dark:text-blue-300 rounded-full hover:bg-purple-100 dark:hover:bg-blue-950/50 transition border border-purple-200/50 dark:border-blue-900/40">
                               {t}
                             </span>
@@ -150,14 +148,6 @@ export default function About() {
                       </div>
 
                       <div>
-                        <p className="text-slate-700 dark:text-blue-300 mb-2 text-sm">Quality Assurance & Testing</p>
-                        <div className="flex flex-wrap gap-2">
-                          {['Test case design', 'Manual testing', 'Documentation', 'Verification'].map((t) => (
-                            <span key={t} className="px-3 py-1 bg-purple-100/60 dark:bg-blue-950/40 text-sm text-slate-700 dark:text-blue-300 rounded-full hover:bg-purple-100 dark:hover:bg-blue-950/50 transition border border-purple-200/50 dark:border-blue-900/40">
-                              {t}
-                            </span>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   </div>

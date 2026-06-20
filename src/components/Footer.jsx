@@ -8,7 +8,7 @@ export default function Footer() {
           JH<span className="text-purple-600 dark:text-blue-400">.</span>
         </p>
         <p className="text-slate-700 dark:text-blue-300 text-sm font-body text-center">
-          © {new Date().getFullYear()} Jamie Hernandez. Built with React + Tailwind CSS.
+          © {new Date().getFullYear()} Jose Maria Hernandez. Built with React + Tailwind CSS.
         </p>
         <div className="flex items-center gap-4">
           {[

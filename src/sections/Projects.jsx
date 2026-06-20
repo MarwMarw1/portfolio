@@ -1,4 +1,3 @@
-import { FiExternalLink } from 'react-icons/fi'
 import { HiSparkles } from 'react-icons/hi'
 import SectionHeader from '../components/SectionHeader'
 import Reveal from '../components/Reveal'
@@ -106,15 +105,6 @@ export default function Projects() {
                     {tech}
                   </span>
                 ))}
-              </div>
-
-              {/* Actions */}
-              <div className="flex items-center gap-3">
-                <button className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-display font-600 transition-all duration-200 bg-purple-100 dark:bg-blue-950/40 text-purple-700 dark:text-blue-300 hover:opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-purple-500 dark:focus-visible:ring-blue-500`} aria-label={`View demo for ${project.title}`}>
-                  <FiExternalLink />
-                  View Demo
-                </button>
-                {/* GitHub link removed as requested */}
               </div>
 
               {/* Hover shimmer */}
