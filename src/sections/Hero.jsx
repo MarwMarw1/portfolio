@@ -176,7 +176,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-purple-200 dark:border-blue-900/50 bg-purple-50 dark:bg-blue-950/30 backdrop-blur text-sm font-mono text-purple-700 dark:text-blue-300 mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Available for freelance work
+          Available for Full Time/Part Time Work
         </motion.div>
 
         <motion.h1
